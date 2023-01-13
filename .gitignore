@@ -395,11 +395,15 @@ FodyWeavers.xsd
 *.msp
 
 # JetBrains Rider
+.idea/
 *.sln.iml
 
 # Terraform
 # Local .terraform directories
 **/.terraform/*
+
+# Terraform lock file, gets overwritten by terraform init
+.terraform.lock.hcl
 
 # .tfstate files
 *.tfstate

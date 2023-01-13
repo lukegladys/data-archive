@@ -13,7 +13,6 @@ string Handler(IteratorModel input, ILambdaContext context) => JsonSerializer.Se
 await LambdaBootstrapBuilder.Create((Func<IteratorModel, ILambdaContext, string>?)Handler, new DefaultLambdaJsonSerializer(options =>
     {
         options.PropertyNameCaseInsensitive = true;
-        options.WriteIndented = true;
     }))
     .Build()
     .RunAsync();

@@ -24,13 +24,6 @@ public class ConfigureCountStartup
 
     private static void ConfigureLoggingAndOptions(IServiceCollection services)
     {
-        // Add logging service
-        services.AddLogging(loggingBuilder =>  // AddLogging() requires Microsoft.Extensions.Logging NuGet package
-        {
-            loggingBuilder.ClearProviders();
-            loggingBuilder.AddConsole(); // AddConsole() requires Microsoft.Extensions.Logging.Console NuGet package
-        });
-        
         // Add configuration service
         services.AddSingleton<IConfiguration>(LambdaConfiguration.Instance);
         

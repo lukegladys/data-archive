@@ -58,6 +58,6 @@ If already installed check if new version is available.
 
 Deploy function to AWS Lambda
 ```
-    cd "Iterator/src/Iterator"
+    cd "ArchiveData.ConfigureCount/src/ArchiveData.ConfigureCount"
     dotnet lambda deploy-function
 ```
