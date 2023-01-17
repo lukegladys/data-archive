@@ -5,7 +5,7 @@ namespace Core;
 
 public interface ITestService
 {
-    public Task<string> GetValue();
+    public Task<int> GetCount();
 }
 
 public class TestService : ITestService
@@ -17,8 +17,8 @@ public class TestService : ITestService
         _dataArchiveOptions = dataArchiveOptions;
     }
 
-    public Task<string> GetValue()
+    public Task<int> GetCount()
     {
-        return Task.FromResult(_dataArchiveOptions.Value.TestLol);
+        return Task.FromResult(100);
     }
 }

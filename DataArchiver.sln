@@ -1,14 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureCount", "src\ConfigureCount\ConfigureCount.csproj", "{7C33BA6C-D173-49C9-8290-AA0CA93C8D37}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchiveData", "src\ArchiveData\ArchiveData.csproj", "{8BC8FC78-9BA8-4C14-8398-8C6CA6516EB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "src\Core\Core.csproj", "{ACC67F0A-D64F-4EB1-9D2F-66F9A94E2E47}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "src\Iterator\Iterator.csproj", "{F24902B4-E4E4-4746-8C8A-794674AE7E21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchiveData.ConfigureCount", "src\ArchiveData.ConfigureCount\ArchiveData.ConfigureCount.csproj", "{8013F4BA-F056-408D-928F-71E9E9997992}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureCount", "src\ConfigureCount\ConfigureCount.csproj", "{8013F4BA-F056-408D-928F-71E9E9997992}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,10 +14,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7C33BA6C-D173-49C9-8290-AA0CA93C8D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C33BA6C-D173-49C9-8290-AA0CA93C8D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C33BA6C-D173-49C9-8290-AA0CA93C8D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C33BA6C-D173-49C9-8290-AA0CA93C8D37}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8BC8FC78-9BA8-4C14-8398-8C6CA6516EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8BC8FC78-9BA8-4C14-8398-8C6CA6516EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BC8FC78-9BA8-4C14-8398-8C6CA6516EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU

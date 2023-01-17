@@ -7,6 +7,6 @@ public class DataArchiveOptionsValidator : AbstractValidator<DataArchiveOptions>
 {
     public DataArchiveOptionsValidator()
     {
-        RuleFor(x => x.TestLol).NotEmpty(); // not null
+        RuleFor(x => x.BatchSize).NotEmpty(); // not null
     }
 }
