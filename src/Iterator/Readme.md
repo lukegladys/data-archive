@@ -1,12 +1,12 @@
-# AWS Lambda Function Using Top Level Statements
+# Iterator Function
+### using .NET 6 Top-Level Statements
 
-This starter project consists of:
-* Function.cs - file contain C# top level statements that define the function to be called for each event and starts the Lambda runtime client.
+This project consists of:
+* Function.cs - This contains the main entry point for the function
 * aws-lambda-tools-defaults.json - default argument settings for use with Visual Studio and command line deployment tools for AWS
 
-You may also have a test project depending on the options selected.
+The function handler is a simple method accepting an `IteratorModel` argument that will iterate based on `IteratorModel.Step` and returns a new `IteratorModel`.
 
-The generated function handler is a simple method accepting a string argument that returns the uppercase equivalent of the input string. Replace the body of this method, and parameters, to suit your needs.
 
 ## Executable Assembly
 
